@@ -1,0 +1,32 @@
+# Generated with the following on 2020-12-28T19:51:44.415639
+#
+#   openstack tripleo container image prepare default --output-env-file /home/stack/containers-prepare-parameter.yaml --local-push-destination
+#
+
+parameter_defaults:
+  ContainerImagePrepare:
+  - push_destination: true
+    excludes:
+    - ceph
+    set:
+      ceph_alertmanager_image: openshift-ose-prometheus-alertmanager
+      ceph_alertmanager_namespace: registry-proxy.engineering.redhat.com/rh-osbs
+      ceph_alertmanager_tag: v4.1
+      ceph_grafana_image: rhceph-3-dashboard-rhel7
+      ceph_grafana_namespace: registry.access.redhat.com/rhceph
+      ceph_grafana_tag: 3
+      ceph_image: rhceph
+      ceph_namespace: registry-proxy.engineering.redhat.com/rh-osbs
+      ceph_node_exporter_image: openshift-ose-prometheus-node-exporter
+      ceph_node_exporter_namespace: registry-proxy.engineering.redhat.com/rh-osbs
+      ceph_node_exporter_tag: v4.1
+      ceph_prometheus_image: openshift-ose-prometheus
+      ceph_prometheus_namespace: registry-proxy.engineering.redhat.com/rh-osbs
+      ceph_prometheus_tag: v4.1
+      ceph_tag: 4-32
+      name_prefix: rhosp16-openstack-
+      name_suffix: ''
+      namespace: registry-proxy.engineering.redhat.com/rh-osbs
+      neutron_driver: null
+      rhel_containers: false
+      tag: 16.1_20200925.2

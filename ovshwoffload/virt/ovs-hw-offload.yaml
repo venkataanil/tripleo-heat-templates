@@ -1,0 +1,65 @@
+resource_registry:
+  OS::TripleO::ComputeSriovOffload::Net::SoftwareConfig: /home/stack/virt/network/vlans/computesriov-offload.yaml
+  OS::TripleO::Controller::Net::SoftwareConfig: /home/stack/virt/network/vlans/controller-offload.yaml
+  OS::TripleO::ComputeSriovMellanox::Net::SoftwareConfig: /home/stack/virt/network/vlans/computesriovMellanox.yaml
+  OS::TripleO::ComputeSriovIntel::Net::SoftwareConfig: /home/stack/virt/network/vlans/computesriovIntel.yaml
+
+  
+parameter_defaults:
+  NeutronBridgeMappings: 'offload1:br-offload1,offload2:br-offload2,access:br-access'
+  NeutronNetworkVLANRanges: 'offload1:502:505,offload2:506:509,access:510:515,sriov1:516:520,sriov2:521:525,sriov3:526:530,sriov4:531:535'
+  NeutronFlatNetworks: 'offload1,offload2,access,sriov1,sriov2,sriov3,sriov4'
+  NovaSchedulerDefaultFilters: ['RetryFilter','AvailabilityZoneFilter','ComputeFilter','ComputeCapabilitiesFilter','ImagePropertiesFilter','ServerGroupAntiAffinityFilter','ServerGroupAffinityFilter','PciPassthroughFilter']
+
+  ControllerParameters:
+    OVNCMSOptions: "enable-chassis-as-gw"
+  
+  ComputeSriovOffloadParameters:
+    OvsHwOffload: True
+    KernelArgs: "default_hugepagesz=1GB hugepagesz=1G hugepages=160 intel_iommu=on iommu=pt isolcpus=8-19,48-59,28-39,68-79"
+    IsolCpusList: "8-19,48-59,28-39,68-79"
+    NovaReservedHostMemory: 4096
+    NovaComputeCpuDedicatedSet: ['8-19','48-59','28-39','68-79']
+    NovaComputeCpuSharedSet: ['0-7','40-47','20-27','60-67']
+    TunedProfileName: "cpu-partitioning"
+    NeutronPhysicalDevMappings: ["offload1:ens1f0", "offload2:ens1f1"]
+    NovaPCIPassthrough:
+    - devname: "ens1f0"
+      physical_network: "offload1"
+    - devname: "ens1f1"
+      physical_network: "offload2"
+    NeutronBridgeMappings: 'offload1:br-offload1,offload2:br-offload2,access:br-access'
+
+  ComputeSriovMellanoxParameters:
+    NeutronBridgeMappings: 'access:br-access'
+    NeutronPhysicalDevMappings: ["sriov1:ens1f0", "sriov2:ens1f1"]
+    NovaPCIPassthrough:
+    - devname: "ens1f0"
+      physical_network: "sriov1"
+      trusted: "true"
+    - devname: "ens1f1"
+      physical_network: "sriov2"
+      trusted: "true"
+    KernelArgs: "default_hugepagesz=1GB hugepagesz=1G hugepages=160 intel_iommu=on iommu=pt isolcpus=8-19,48-59,28-39,68-79"
+    IsolCpusList: "8-19,48-59,28-39,68-79"
+    TunedProfileName: "cpu-partitioning"
+    NovaComputeCpuDedicatedSet: ['8-19','48-59','28-39','68-79']
+    NovaComputeCpuSharedSet: ['0-7','40-47','20-27','60-67']
+    NovaReservedHostMemory: 4096
+
+  ComputeSriovIntelParameters:
+    NeutronBridgeMappings: 'access:br-access'
+    NeutronPhysicalDevMappings: ["sriov3:ens2f0", "sriov4:ens2f1"]
+    NovaPCIPassthrough:
+    - devname: "ens2f0"
+      physical_network: "sriov3"
+      trusted: "true"
+    - devname: "ens2f1"
+      physical_network: "sriov4"
+      trusted: "true"
+    KernelArgs: "default_hugepagesz=1GB hugepagesz=1G hugepages=160 intel_iommu=on iommu=pt isolcpus=6-15,22-31,38-47,54-63"
+    IsolCpusList: "6-15,22-31,38-47,54-63"
+    TunedProfileName: "cpu-partitioning"
+    NovaComputeCpuDedicatedSet: ['6-15','22-31','38-47','54-63']
+    NovaComputeCpuSharedSet: ['0-5','16-21','32-37','48-53']
+    NovaReservedHostMemory: 4096

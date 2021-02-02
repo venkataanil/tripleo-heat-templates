@@ -1,0 +1,2256 @@
+00:00.0 Host bridge: Intel Corporation Sky Lake-E DMI3 Registers (rev 04)
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 0
+	NUMA node: 0
+	Capabilities: <access denied>
+
+00:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 487
+	NUMA node: 0
+	Region 0: Memory at 383ffff1c000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+00:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin B routed to IRQ 490
+	NUMA node: 0
+	Region 0: Memory at 383ffff18000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+00:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin C routed to IRQ 487
+	NUMA node: 0
+	Region 0: Memory at 383ffff14000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+00:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin D routed to IRQ 490
+	NUMA node: 0
+	Region 0: Memory at 383ffff10000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+00:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 487
+	NUMA node: 0
+	Region 0: Memory at 383ffff0c000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+00:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin B routed to IRQ 490
+	NUMA node: 0
+	Region 0: Memory at 383ffff08000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+00:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin C routed to IRQ 487
+	NUMA node: 0
+	Region 0: Memory at 383ffff04000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+00:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin D routed to IRQ 490
+	NUMA node: 0
+	Region 0: Memory at 383ffff00000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+00:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+00:05.2 System peripheral: Intel Corporation Sky Lake-E RAS (rev 04)
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+00:05.4 PIC: Intel Corporation Sky Lake-E IOAPIC (rev 04) (prog-if 20 [IO(X)-APIC])
+	Subsystem: Intel Corporation Sky Lake-E IOAPIC
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	NUMA node: 0
+	Region 0: Memory at 9d31a000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+
+00:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+00:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+00:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+00:11.0 Unassigned class [ff00]: Intel Corporation C620 Series Chipset Family MROM 0 (rev 09)
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	NUMA node: 0
+	Capabilities: <access denied>
+
+00:11.1 Unassigned class [ff00]: Intel Corporation C620 Series Chipset Family MROM 1 (rev 09)
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	NUMA node: 0
+	Capabilities: <access denied>
+
+00:11.5 SATA controller: Intel Corporation C620 Series Chipset Family SSATA Controller [AHCI mode] (rev 09) (prog-if 01 [AHCI 1.0])
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz+ UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 43
+	NUMA node: 0
+	Region 0: Memory at 9d316000 (32-bit, non-prefetchable) [size=8K]
+	Region 1: Memory at 9d319000 (32-bit, non-prefetchable) [size=256]
+	Region 2: I/O ports at 0800 [size=8]
+	Region 3: I/O ports at 0810 [size=4]
+	Region 4: I/O ports at 0820 [size=32]
+	Region 5: Memory at 9d280000 (32-bit, non-prefetchable) [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: ahci
+	Kernel modules: ahci
+
+00:14.0 USB controller: Intel Corporation C620 Series Chipset Family USB 3.0 xHCI Controller (rev 09) (prog-if 30 [XHCI])
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 40
+	NUMA node: 0
+	Region 0: Memory at 9d300000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: xhci_hcd
+
+00:14.2 Signal processing controller: Intel Corporation C620 Series Chipset Family Thermal Subsystem (rev 09)
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin C routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at 383ffff23000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+
+00:16.0 Communication controller: Intel Corporation C620 Series Chipset Family MEI Controller #1 (rev 09)
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 489
+	NUMA node: 0
+	Region 0: Memory at 383ffff22000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: mei_me
+	Kernel modules: mei_me
+
+00:16.1 Communication controller: Intel Corporation C620 Series Chipset Family MEI Controller #2 (rev 09)
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at 383ffff21000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+
+00:16.4 Communication controller: Intel Corporation C620 Series Chipset Family MEI Controller #3 (rev 09)
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at 383ffff20000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+
+00:17.0 SATA controller: Intel Corporation C620 Series Chipset Family SATA Controller [AHCI mode] (rev 09) (prog-if 01 [AHCI 1.0])
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz+ UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 45
+	NUMA node: 0
+	Region 0: Memory at 9d314000 (32-bit, non-prefetchable) [size=8K]
+	Region 1: Memory at 9d318000 (32-bit, non-prefetchable) [size=256]
+	Region 2: I/O ports at 0840 [size=8]
+	Region 3: I/O ports at 0850 [size=4]
+	Region 4: I/O ports at 0860 [size=32]
+	Region 5: Memory at 9d200000 (32-bit, non-prefetchable) [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: ahci
+	Kernel modules: ahci
+
+00:1c.0 PCI bridge: Intel Corporation C620 Series Chipset Family PCI Express Root Port #1 (rev f9) (prog-if 00 [Normal decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 24
+	NUMA node: 0
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 0000f000-00000fff [empty]
+	Memory behind bridge: 9d100000-9d1fffff [size=1M]
+	Prefetchable memory behind bridge: 00000000fff00000-00000000000fffff [empty]
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity+ SERR+ NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:1c.5 PCI bridge: Intel Corporation C620 Series Chipset Family PCI Express Root Port #6 (rev f9) (prog-if 00 [Normal decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin B routed to IRQ 25
+	NUMA node: 0
+	Bus: primary=00, secondary=02, subordinate=03, sec-latency=0
+	I/O behind bridge: 00003000-00003fff [size=4K]
+	Memory behind bridge: 9c000000-9d0fffff [size=17M]
+	Prefetchable memory behind bridge: 00000000fff00000-00000000000fffff [empty]
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity+ SERR+ NoISA- VGA+ MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:1f.0 ISA bridge: Intel Corporation C621 Series Chipset LPC/eSPI Controller (rev 09)
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	NUMA node: 0
+	Kernel modules: lpc_ich
+
+00:1f.2 Memory controller: Intel Corporation C620 Series Chipset Family Power Management Controller (rev 09)
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	NUMA node: 0
+	Region 0: Memory at 9d310000 (32-bit, non-prefetchable) [size=16K]
+
+00:1f.4 SMBus: Intel Corporation C620 Series Chipset Family SMBus (rev 09)
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O+ Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 16
+	NUMA node: 0
+	Region 0: Memory at 380000000000 (64-bit, non-prefetchable) [size=256]
+	Region 4: I/O ports at 0780 [size=32]
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c_i801
+
+00:1f.5 Serial bus controller [0c80]: Intel Corporation C620 Series Chipset Family SPI Controller (rev 09)
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Region 0: Memory at fe010000 (32-bit, non-prefetchable) [size=4K]
+
+01:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller SM961/PM961 (prog-if 02 [NVM Express])
+	Subsystem: Samsung Electronics Co Ltd Device a801
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 16
+	NUMA node: 0
+	Region 0: Memory at 9d120000 (64-bit, non-prefetchable) [size=16K]
+	Expansion ROM at 9d100000 [disabled] [size=128K]
+	Capabilities: <access denied>
+	Kernel driver in use: nvme
+	Kernel modules: nvme
+
+02:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04) (prog-if 00 [Normal decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 17
+	NUMA node: 0
+	Bus: primary=02, secondary=03, subordinate=03, sec-latency=32
+	I/O behind bridge: 00003000-00003fff [size=4K]
+	Memory behind bridge: 9c000000-9d0fffff [size=17M]
+	Prefetchable memory behind bridge: 00000000fff00000-00000000000fffff [empty]
+	Secondary status: 66MHz+ FastB2B- ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity+ SERR+ NoISA- VGA+ MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+
+03:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41) (prog-if 00 [VGA controller])
+	Subsystem: Super Micro Computer Inc Device 091c
+	Control: I/O+ Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 17
+	NUMA node: 0
+	Region 0: Memory at 9c000000 (32-bit, non-prefetchable) [size=16M]
+	Region 1: Memory at 9d000000 (32-bit, non-prefetchable) [size=128K]
+	Region 2: I/O ports at 3000 [size=128]
+	[virtual] Expansion ROM at 000c0000 [disabled] [size=128K]
+	Capabilities: <access denied>
+	Kernel driver in use: ast
+	Kernel modules: ast
+
+17:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 04) (prog-if 00 [Normal decode])
+	Physical Slot: 0
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 27
+	NUMA node: 0
+	Bus: primary=17, secondary=18, subordinate=18, sec-latency=0
+	I/O behind bridge: 00005000-00005fff [size=4K]
+	Memory behind bridge: 9d800000-9dbfffff [size=4M]
+	Prefetchable memory behind bridge: 00000000aad00000-00000000aaefffff [size=2M]
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity+ SERR+ NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+17:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port C (rev 04) (prog-if 00 [Normal decode])
+	Physical Slot: 0-1
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 28
+	NUMA node: 0
+	Bus: primary=17, secondary=19, subordinate=19, sec-latency=0
+	I/O behind bridge: 0000f000-00000fff [empty]
+	Memory behind bridge: 9dc00000-9ddfffff [size=2M]
+	Prefetchable memory behind bridge: 0000384000000000-00003840001fffff [size=2M]
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity- SERR+ NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+17:03.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port D (rev 04) (prog-if 00 [Normal decode])
+	Physical Slot: 0-2
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 29
+	NUMA node: 0
+	Bus: primary=17, secondary=1a, subordinate=1a, sec-latency=0
+	I/O behind bridge: 00004000-00004fff [size=4K]
+	Memory behind bridge: 9de00000-9dffffff [size=2M]
+	Prefetchable memory behind bridge: 0000384000200000-00003840003fffff [size=2M]
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity- SERR+ NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+17:05.0 System peripheral: Intel Corporation Sky Lake-E VT-d (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+17:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+17:05.4 PIC: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers (rev 04) (prog-if 20 [IO(X)-APIC])
+	Subsystem: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	NUMA node: 0
+	Region 0: Memory at aaf00000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+
+17:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+17:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+18:00.0 Ethernet controller: Intel Corporation 82599ES 10-Gigabit SFI/SFP+ Network Connection (rev 01)
+	Subsystem: Super Micro Computer Inc Device 0870
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 44
+	NUMA node: 0
+	Region 0: Memory at aad80000 (64-bit, prefetchable) [size=512K]
+	Region 2: I/O ports at 5020 [size=32]
+	Region 4: Memory at aae04000 (64-bit, prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ixgbe
+	Kernel modules: ixgbe
+
+18:00.1 Ethernet controller: Intel Corporation 82599ES 10-Gigabit SFI/SFP+ Network Connection (rev 01)
+	Subsystem: Super Micro Computer Inc Device 0870
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin B routed to IRQ 125
+	NUMA node: 0
+	Region 0: Memory at aad00000 (64-bit, prefetchable) [size=512K]
+	Region 2: I/O ports at 5000 [size=32]
+	Region 4: Memory at aae00000 (64-bit, prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ixgbe
+	Kernel modules: ixgbe
+
+3a:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 04) (prog-if 00 [Normal decode])
+	Physical Slot: 0-3
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 31
+	NUMA node: 0
+	Bus: primary=3a, secondary=3b, subordinate=3b, sec-latency=0
+	I/O behind bridge: 00006000-00006fff [size=4K]
+	Memory behind bridge: ab000000-ab1fffff [size=2M]
+	Prefetchable memory behind bridge: 0000388000000000-00003880001fffff [size=2M]
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity- SERR+ NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+3a:01.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port B (rev 04) (prog-if 00 [Normal decode])
+	Physical Slot: 0-4
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 32
+	NUMA node: 0
+	Bus: primary=3a, secondary=3c, subordinate=3c, sec-latency=0
+	I/O behind bridge: 00007000-00007fff [size=4K]
+	Memory behind bridge: ab200000-ab3fffff [size=2M]
+	Prefetchable memory behind bridge: 0000388000200000-00003880003fffff [size=2M]
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity- SERR+ NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+3a:05.0 System peripheral: Intel Corporation Sky Lake-E VT-d (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:05.4 PIC: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers (rev 04) (prog-if 20 [IO(X)-APIC])
+	Subsystem: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	NUMA node: 0
+	Region 0: Memory at b8700000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+
+3a:08.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+3a:09.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+3a:0a.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0a.1 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0a.2 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+3a:0a.3 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0a.4 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0a.5 System peripheral: Intel Corporation Sky Lake-E LM Channel 1 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0a.6 System peripheral: Intel Corporation Sky Lake-E LMS Channel 1 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+3a:0a.7 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 1 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0b.0 System peripheral: Intel Corporation Sky Lake-E DECS Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0b.1 System peripheral: Intel Corporation Sky Lake-E LM Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0b.2 System peripheral: Intel Corporation Sky Lake-E LMS Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+3a:0b.3 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0c.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0c.1 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0c.2 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+3a:0c.3 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0c.4 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0c.5 System peripheral: Intel Corporation Sky Lake-E LM Channel 1 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0c.6 System peripheral: Intel Corporation Sky Lake-E LMS Channel 1 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+3a:0c.7 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 1 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0d.0 System peripheral: Intel Corporation Sky Lake-E DECS Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0d.1 System peripheral: Intel Corporation Sky Lake-E LM Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+3a:0d.2 System peripheral: Intel Corporation Sky Lake-E LMS Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+3a:0d.3 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+5d:05.0 System peripheral: Intel Corporation Sky Lake-E VT-d (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+5d:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+5d:05.4 PIC: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers (rev 04) (prog-if 20 [IO(X)-APIC])
+	Subsystem: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	NUMA node: 0
+	Region 0: Memory at c5f00000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+
+5d:0e.0 Performance counters: Intel Corporation Sky Lake-E KTI 0 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+5d:0e.1 System peripheral: Intel Corporation Sky Lake-E UPI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+5d:0f.0 Performance counters: Intel Corporation Sky Lake-E KTI 0 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+5d:0f.1 System peripheral: Intel Corporation Sky Lake-E UPI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+5d:10.0 Performance counters: Intel Corporation Sky Lake-E KTI 0 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+5d:10.1 System peripheral: Intel Corporation Sky Lake-E UPI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+5d:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+5d:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Kernel driver in use: skx_uncore
+
+5d:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Kernel driver in use: skx_uncore
+
+5d:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Capabilities: <access denied>
+
+5d:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+	Kernel driver in use: skx_uncore
+
+5d:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+5d:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+5d:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+5d:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 0
+
+80:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 498
+	NUMA node: 1
+	Region 0: Memory at 393ffff1c000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+80:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin B routed to IRQ 500
+	NUMA node: 1
+	Region 0: Memory at 393ffff18000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+80:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin C routed to IRQ 498
+	NUMA node: 1
+	Region 0: Memory at 393ffff14000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+80:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin D routed to IRQ 500
+	NUMA node: 1
+	Region 0: Memory at 393ffff10000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+80:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 498
+	NUMA node: 1
+	Region 0: Memory at 393ffff0c000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+80:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin B routed to IRQ 500
+	NUMA node: 1
+	Region 0: Memory at 393ffff08000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+80:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin C routed to IRQ 498
+	NUMA node: 1
+	Region 0: Memory at 393ffff04000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+80:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin D routed to IRQ 500
+	NUMA node: 1
+	Region 0: Memory at 393ffff00000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ioatdma
+	Kernel modules: ioatdma
+
+80:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+80:05.2 System peripheral: Intel Corporation Sky Lake-E RAS (rev 04)
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+80:05.4 PIC: Intel Corporation Sky Lake-E IOAPIC (rev 04) (prog-if 20 [IO(X)-APIC])
+	Subsystem: Intel Corporation Sky Lake-E IOAPIC
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	NUMA node: 1
+	Region 0: Memory at d3700000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+
+80:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+80:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+80:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+85:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port C (rev 04) (prog-if 00 [Normal decode])
+	Physical Slot: 0-5
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 34
+	NUMA node: 1
+	Bus: primary=85, secondary=86, subordinate=86, sec-latency=0
+	I/O behind bridge: 0000c000-0000cfff [size=4K]
+	Memory behind bridge: d3800000-d39fffff [size=2M]
+	Prefetchable memory behind bridge: 0000394000000000-00003940001fffff [size=2M]
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity- SERR+ NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+85:03.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port D (rev 04) (prog-if 00 [Normal decode])
+	Physical Slot: 0-6
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 35
+	NUMA node: 1
+	Bus: primary=85, secondary=87, subordinate=87, sec-latency=0
+	I/O behind bridge: 0000d000-0000dfff [size=4K]
+	Memory behind bridge: d3a00000-d3bfffff [size=2M]
+	Prefetchable memory behind bridge: 0000394000200000-00003940003fffff [size=2M]
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity- SERR+ NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+85:05.0 System peripheral: Intel Corporation Sky Lake-E VT-d (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+85:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+85:05.4 PIC: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers (rev 04) (prog-if 20 [IO(X)-APIC])
+	Subsystem: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	NUMA node: 1
+	Region 0: Memory at e0f00000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+
+85:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+85:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+ae:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 04) (prog-if 00 [Normal decode])
+	Physical Slot: 1
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 37
+	NUMA node: 1
+	Bus: primary=ae, secondary=af, subordinate=af, sec-latency=0
+	I/O behind bridge: 0000f000-00000fff [empty]
+	Memory behind bridge: ee600000-ee6fffff [size=1M]
+	Prefetchable memory behind bridge: 00000000ec000000-00000000ee0fffff [size=33M]
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity+ SERR+ NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+ae:05.0 System peripheral: Intel Corporation Sky Lake-E VT-d (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:05.4 PIC: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers (rev 04) (prog-if 20 [IO(X)-APIC])
+	Subsystem: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	NUMA node: 1
+	Region 0: Memory at ee700000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+
+ae:08.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+ae:09.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+ae:0a.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0a.1 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0a.2 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+ae:0a.3 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0a.4 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0a.5 System peripheral: Intel Corporation Sky Lake-E LM Channel 1 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0a.6 System peripheral: Intel Corporation Sky Lake-E LMS Channel 1 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+ae:0a.7 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 1 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0b.0 System peripheral: Intel Corporation Sky Lake-E DECS Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0b.1 System peripheral: Intel Corporation Sky Lake-E LM Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0b.2 System peripheral: Intel Corporation Sky Lake-E LMS Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+ae:0b.3 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0c.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0c.1 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0c.2 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+ae:0c.3 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0c.4 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0c.5 System peripheral: Intel Corporation Sky Lake-E LM Channel 1 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0c.6 System peripheral: Intel Corporation Sky Lake-E LMS Channel 1 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+ae:0c.7 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 1 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0d.0 System peripheral: Intel Corporation Sky Lake-E DECS Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0d.1 System peripheral: Intel Corporation Sky Lake-E LM Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+ae:0d.2 System peripheral: Intel Corporation Sky Lake-E LMS Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+ae:0d.3 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 2 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+af:00.0 Ethernet controller: Intel Corporation Ethernet Controller XXV710 for 25GbE SFP28 (rev 02)
+	Subsystem: Super Micro Computer Inc Device 0978
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 42
+	NUMA node: 1
+	Region 0: Memory at ed000000 (64-bit, prefetchable) [size=16M]
+	Region 3: Memory at ee008000 (64-bit, prefetchable) [size=32K]
+	Expansion ROM at ee680000 [disabled] [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: i40e
+	Kernel modules: i40e
+
+af:00.1 Ethernet controller: Intel Corporation Ethernet Controller XXV710 for 25GbE SFP28 (rev 02)
+	Subsystem: Super Micro Computer Inc Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 42
+	NUMA node: 1
+	Region 0: Memory at ec000000 (64-bit, prefetchable) [size=16M]
+	Region 3: Memory at ee000000 (64-bit, prefetchable) [size=32K]
+	Expansion ROM at ee600000 [disabled] [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: i40e
+	Kernel modules: i40e
+
+d7:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 04) (prog-if 00 [Normal decode])
+	Physical Slot: 2
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 39
+	NUMA node: 1
+	Bus: primary=d7, secondary=d8, subordinate=d8, sec-latency=0
+	I/O behind bridge: 0000f000-00000fff [empty]
+	Memory behind bridge: fbe00000-fbefffff [size=1M]
+	Prefetchable memory behind bridge: 00000000f9000000-00000000fb0fffff [size=33M]
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity+ SERR+ NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+d7:05.0 System peripheral: Intel Corporation Sky Lake-E VT-d (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+d7:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+d7:05.4 PIC: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers (rev 04) (prog-if 20 [IO(X)-APIC])
+	Subsystem: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	NUMA node: 1
+	Region 0: Memory at fbf00000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+
+d7:0e.0 Performance counters: Intel Corporation Sky Lake-E KTI 0 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+d7:0e.1 System peripheral: Intel Corporation Sky Lake-E UPI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+d7:0f.0 Performance counters: Intel Corporation Sky Lake-E KTI 0 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+d7:0f.1 System peripheral: Intel Corporation Sky Lake-E UPI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+d7:10.0 Performance counters: Intel Corporation Sky Lake-E KTI 0 (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+	Kernel driver in use: skx_uncore
+
+d7:10.1 System peripheral: Intel Corporation Sky Lake-E UPI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+d7:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+d7:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Kernel driver in use: skx_uncore
+
+d7:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Kernel driver in use: skx_uncore
+
+d7:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Capabilities: <access denied>
+
+d7:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+	Kernel driver in use: skx_uncore
+
+d7:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+d7:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+d7:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+d7:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+	Subsystem: Intel Corporation Device 0000
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	NUMA node: 1
+
+d8:00.0 Ethernet controller: Intel Corporation Ethernet Controller XXV710 for 25GbE SFP28 (rev 02)
+	Subsystem: Super Micro Computer Inc Device 0978
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 338
+	NUMA node: 1
+	Region 0: Memory at fa000000 (64-bit, prefetchable) [size=16M]
+	Region 3: Memory at fb008000 (64-bit, prefetchable) [size=32K]
+	Expansion ROM at fbe80000 [disabled] [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: i40e
+	Kernel modules: i40e
+
+d8:00.1 Ethernet controller: Intel Corporation Ethernet Controller XXV710 for 25GbE SFP28 (rev 02)
+	Subsystem: Super Micro Computer Inc Device 0000
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 338
+	NUMA node: 1
+	Region 0: Memory at f9000000 (64-bit, prefetchable) [size=16M]
+	Region 3: Memory at fb000000 (64-bit, prefetchable) [size=32K]
+	Expansion ROM at fbe00000 [disabled] [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: i40e
+	Kernel modules: i40e
+

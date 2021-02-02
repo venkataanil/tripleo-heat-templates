@@ -1,0 +1,12 @@
+
+parameter_defaults:
+    CloudDomain: redhat.local
+
+    CephStorageHostnameFormat: 'ceph-%index%'
+    ObjectStorageHostnameFormat: 'swift-%index%'
+    ControllerHostnameFormat: 'controller-%index%'
+    ComputeHostnameFormat: 'compute-%index%'
+    ComputeSriovOffloadHostnameFormat: 'cmpt-offload-%index%'
+    ComputeSriovMellanoxHostnameFormat: 'sriovmellanox-%index%'
+    ComputeSriovIntelHostnameFormat: 'sriovintel-%index%'
+
