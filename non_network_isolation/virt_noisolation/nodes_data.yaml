@@ -1,0 +1,5 @@
+parameter_defaults:
+    ControllerCount: 1
+    OvercloudControllerFlavor: baremetal
+    ComputeCount: 1
+    OvercloudComputeFlavor: baremetal
