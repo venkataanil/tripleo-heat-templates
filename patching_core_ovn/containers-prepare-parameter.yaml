@@ -15,23 +15,7 @@ parameter_defaults:
     modify_append_tag: "-hotfix"
     modify_vars:
         tasks_from: rpm_install.yml
-        rpms_path: /home/stack/coreovnrpms
-    set:
-      name_prefix: rhosp16-openstack-
-      name_suffix: ''
-      namespace: registry-proxy.engineering.redhat.com/rh-osbs
-      neutron_driver: ovn
-      rhel_containers: false
-      tag: 16.1_20210205.1
-  - push_destination: true
-    includes:
-        - neutron-server-ovn
-        - neutron-metadata-agent-ovn
-    modify_role: tripleo-modify-image
-    modify_append_tag: "-hotfix"
-    modify_vars:
-        tasks_from: rpm_install.yml
-        rpms_path: /home/stack/networkingovnrpms
+        rpms_path: /home/stack/ovnrpms
     set:
       name_prefix: rhosp16-openstack-
       name_suffix: ''

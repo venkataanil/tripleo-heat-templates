@@ -1,7 +1,6 @@
 This doc explains how to install hotfix rpms while deploying overcloud.
 
-1. Download core ovn rpms to /home/stack/coreovnrpms
-   Download networking ovn rpms to /home/stack/networkingovnrpms
+1. Download rpms to /home/stack/ovnrpms
 2. overcloud_deploy.sh changes
    a. remove /home/stack/virt/docker-images.yaml
    b. add /home/stack/virt/ovn_patch.yaml at the end
@@ -10,11 +9,9 @@ This doc explains how to install hotfix rpms while deploying overcloud.
       sudo docker images | grep ovn
    b. use the proper tag i.e 16.1_20210205.1
    c. append "-hotfix" at the end
-   d. add both networking ovn and core ovn images
 4. update containers-prepare-parameter.yaml
-   a. add new "push_destination" section for core ovn patching
+   a. add new "push_destination" section for patching
    b. "includes:" section will use the image name from ovn_patch.yaml, for example
       from ContainerOvnSbDbImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-ovn-sb-db-server:16.1_20210205.1-hotfix use "ovn-sb-db-server" i.e exclude rhosp16-openstack
    c. set "rpms_path:" to location where you have downloaded rpms i.e /home/stack/ovnrpms
-   a. add another new "push_destination" section for networking ovn patching
-note: attached files have these details. We can use them as is.
+5. if we need to also install any nova rpms or networking-ovn rpms, add another "push_destination" with those details. 

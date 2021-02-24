@@ -6,7 +6,3 @@ parameter_defaults:
   ContainerOvnNbDbImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-ovn-nb-db-server:16.1_20210205.1-hotfix
   ContainerOvnNorthdImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-ovn-northd:16.1_20210205.1-hotfix
   ContainerOvnSbDbImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-ovn-sb-db-server:16.1_20210205.1-hotfix
-  ContainerNeutronApiImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-neutron-server-ovn:16.1_20210205.1-hotfix
-  ContainerNeutronConfigImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-neutron-server-ovn:16.1_20210205.1-hotfix
-  ContainerOvnMetadataImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-neutron-metadata-agent-ovn:16.1_20210205.1-hotfix
-  ContainerNeutronMetadataImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-neutron-metadata-agent-ovn:16.1_20210205.1-hotfix
