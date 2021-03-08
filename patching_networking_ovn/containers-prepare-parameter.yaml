@@ -5,7 +5,7 @@
 
 parameter_defaults:
   ContainerImagePrepare:
-  - push_destination: 192.168.0.1:8787
+  - push_destination: true
     includes:
         - neutron-server-ovn
         - neutron-metadata-agent-ovn
@@ -13,16 +13,18 @@ parameter_defaults:
     modify_append_tag: "-hotfix"
     modify_vars:
         tasks_from: rpm_install.yml
-        rpms_path: /home/stack/ovn_patch_fix
+        rpms_path: /home/stack/networkingovnrpms
     set:
       name_prefix: rhosp16-openstack-
       name_suffix: ''
       namespace: registry-proxy.engineering.redhat.com/rh-osbs
       neutron_driver: ovn
       rhel_containers: false
-      tag: 16.1_20200625.1
+      tag: 16.1_20210216.1
 
-  - push_destination: 192.168.0.1:8787
+  - push_destination: true
+    excludes:
+    - ceph
     set:
       ceph_alertmanager_image: openshift-ose-prometheus-alertmanager
       ceph_alertmanager_namespace: registry-proxy.engineering.redhat.com/rh-osbs
@@ -30,19 +32,18 @@ parameter_defaults:
       ceph_grafana_image: rhceph-3-dashboard-rhel7
       ceph_grafana_namespace: registry.access.redhat.com/rhceph
       ceph_grafana_tag: 3
-      ceph_image: ceph-4.0-rhel-8
-      ceph_namespace: docker-registry.upshift.redhat.com/ceph
+      ceph_image: rhceph
+      ceph_namespace: registry-proxy.engineering.redhat.com/rh-osbs
       ceph_node_exporter_image: openshift-ose-prometheus-node-exporter
       ceph_node_exporter_namespace: registry-proxy.engineering.redhat.com/rh-osbs
       ceph_node_exporter_tag: v4.1
       ceph_prometheus_image: openshift-ose-prometheus
       ceph_prometheus_namespace: registry-proxy.engineering.redhat.com/rh-osbs
       ceph_prometheus_tag: v4.1
-      ceph_tag: latest
+      ceph_tag: 4-36
       name_prefix: rhosp16-openstack-
       name_suffix: ''
       namespace: registry-proxy.engineering.redhat.com/rh-osbs
       neutron_driver: ovn
       rhel_containers: false
-      tag: 16.1_20200625.1
-
+      tag: 16.1_20210216.1
