@@ -1,5 +1,4 @@
 parameter_defaults:
-    ContainerNeutronApiImage: 192.168.0.1:8787/rh-osbs/rhosp16-openstack-neutron-server-ovn:16.1_20200625.1-hotfix
-    ContainerNeutronConfigImage: 192.168.0.1:8787/rh-osbs/rhosp16-openstack-neutron-server-ovn:16.1_20200625.1-hotfix
-    ContainerOvnMetadataImage: 192.168.0.1:8787/rh-osbs/rhosp16-openstack-neutron-metadata-agent-ovn:16.1_20200625.1-hotfix
-    ContainerNeutronMetadataImage: 192.168.0.1:8787/rh-osbs/rhosp16-openstack-neutron-metadata-agent-ovn:16.1_20200625.1-hotfix
+    ContainerNeutronApiImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-neutron-server-ovn:16.1_20210216.1-hotfix
+    ContainerOvnMetadataImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-neutron-metadata-agent-ovn:16.1_20210216.1-hotfix
+    ContainerNeutronMetadataImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-neutron-metadata-agent-ovn:16.1_20210216.1-hotfix
