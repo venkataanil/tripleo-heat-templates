@@ -1,0 +1,4 @@
+parameter_defaults:
+    ContainerNeutronApiImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-neutron-server-ovn:16.1_20210216.1-hotfix
+    ContainerOvnMetadataImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-neutron-metadata-agent-ovn:16.1_20210216.1-hotfix
+    ContainerNeutronMetadataImage: undercloud.ctlplane.localdomain:8787/rh-osbs/rhosp16-openstack-neutron-metadata-agent-ovn:16.1_20210216.1-hotfix

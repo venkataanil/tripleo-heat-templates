@@ -1,0 +1,8 @@
+parameter_defaults:
+  NeutronApiPolicies: {
+    neutron-get_loggable_resource: { key: get_loggable_resource, value: 'rule:regular_user' },
+    neutron-create_log: { key: create_log, value: 'rule:regular_user' },
+    neutron-get_log: { key: get_log, value: 'rule:regular_user' },
+    neutron-update_log: { key: update_log, value: 'rule:regular_user' },
+    neutron-delete_log: { key: delete_log, value: 'rule:regular_user' }
+  }
