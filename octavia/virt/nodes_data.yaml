@@ -1,0 +1,25 @@
+parameter_defaults:
+    ControllerCount: 3
+    Compute1029pCount: 10
+    #    Compute6049pCount: 3
+    #    Compute6048rCount: 6
+    Computedl360Count: 2
+    #    Computer730xdCount: 10
+    Computer640Count: 10
+    Computer640F04Count: 1
+    #    Computefc640Count: 2
+    Computefc640MCount: 7
+    Compute6018rCount: 5
+    Computer630Count: 15
+    OvercloudControllerFlavor: baremetal1029p
+    OvercloudCompute1029pFlavor: baremetal1029p
+    OvercloudComputer630Flavor: baremetalr630
+    #    OvercloudCompute6049pFlavor: baremetal6049p
+    #    OvercloudCompute6048rFlavor: baremetal6048r
+    OvercloudComputedl360Flavor: baremetaldl360
+    #    OvercloudComputer730xdFlavor: baremetalr730xd
+    OvercloudComputer640Flavor: baremetalr640
+    OvercloudComputer640F04Flavor: baremetalr640f
+    OvercloudComputefc640MFlavor: baremetalfc640m
+    #    OvercloudComputefc640Flavor: baremetalfc640
+    OvercloudCompute6018rFlavor: baremetal6018r

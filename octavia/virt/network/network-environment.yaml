@@ -1,0 +1,47 @@
+---
+# This template configures each role to use Vlans on a single nic for
+# each isolated network, but uses multiple nic's on each node:
+#
+# nic1 = pxe/management/ctlplane
+# nic2 = VLAN trunk for network isolation
+# nic3 = public/external access
+#
+# This template assumes use of network-isolation.yaml.
+#
+# FIXME: if/when we add functionality to heatclient to include heat
+# environment files we should think about using it here to automatically
+# include network-isolation.yaml.
+resource_registry:
+  OS::TripleO::Compute1029p::Net::SoftwareConfig: vlans/compute_1029p.yaml
+  #  OS::TripleO::Compute6049p::Net::SoftwareConfig: vlans/compute_6049p.yaml
+  #  OS::TripleO::Compute6048r::Net::SoftwareConfig: vlans/compute_6048r.yaml
+  OS::TripleO::Computedl360::Net::SoftwareConfig: vlans/compute_dl360.yaml
+  #  OS::TripleO::Computer730xd::Net::SoftwareConfig: vlans/compute_r730xd.yaml
+  OS::TripleO::Computer630::Net::SoftwareConfig: vlans/compute_r630.yaml
+  OS::TripleO::Computer640::Net::SoftwareConfig: vlans/compute_r640.yaml
+  OS::TripleO::Computer640F04::Net::SoftwareConfig: vlans/compute_r640_f04.yaml
+  #  OS::TripleO::Computefc640::Net::SoftwareConfig: vlans/compute_fc640.yaml
+  OS::TripleO::Computefc640M::Net::SoftwareConfig: vlans/compute_fc640_mellanox.yaml
+  OS::TripleO::Compute6018r::Net::SoftwareConfig: vlans/compute_6018r.yaml
+  OS::TripleO::Controller::Net::SoftwareConfig: vlans/controller.yaml
+parameter_defaults:
+    ExternalNetCidr: 172.18.0.0/16
+    ExternalAllocationPools: [{'start': '172.18.0.50', 'end': '172.18.0.150' }]
+    ExternalInterfaceDefaultRoute: 172.18.0.1
+    ExternalNetworkVlanID: 300
+    InternalApiNetCidr: 172.17.1.0/24
+    InternalApiAllocationPools: [{'start': '172.17.1.10', 'end': '172.17.1.149' }]
+    InternalApiNetworkVlanID: 301
+    StorageNetCidr: 172.17.3.0/24
+    StorageAllocationPools: [{'start': '172.17.3.10', 'end': '172.17.3.149' }]
+    StorageNetworkVlanID: 302
+    StorageMgmtNetCidr: 172.17.4.0/24
+    StorageMgmtAllocationPools: [{'start': '172.17.4.10', 'end': '172.17.4.149' }]
+    StorageMgmtNetworkVlanID: 303
+    TenantNetCidr: 172.17.2.0/24
+    TenantAllocationPools: [{'start': '172.17.2.10', 'end': '172.17.2.150'}]
+    TenantNetworkVlanID: 304
+    DnsServers: ['192.168.24.1']
+    EC2MetadataIp: 192.168.24.1
+    ControlPlaneDefaultRoute: 192.168.24.1
+    ControlPlaneSubnetCidr: "24"
