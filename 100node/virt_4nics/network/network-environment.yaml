@@ -1,0 +1,42 @@
+parameter_defaults:
+    ControlPlaneDefaultRoute: 192.168.0.1
+    ControlPlaneSubnetCidr: '16'
+    EC2MetadataIp: 192.168.0.1
+    ExternalAllocationPools:
+    -   end: 172.26.254.254
+        start: 172.26.0.10
+    ExternalInterfaceDefaultRoute: 172.26.0.1
+    ExternalNetCidr: 172.26.0.0/16
+    ExternalNetworkVlanID: 300
+    InternalApiAllocationPools:
+    -   end: 172.20.254.254
+        start: 172.20.0.10
+    InternalApiNetCidr: 172.20.0.0/16
+    InternalApiNetworkVlanID: 301
+    NeutronBridgeMappings: ''
+    NeutronEnableDVR: 'false'
+    NeutronExternalNetworkBridge: ''
+    NeutronNetworkType: geneve,vlan
+    NeutronNetworkVLANRanges: tenant:1000:2000
+    NeutronTunnelTypes: geneve
+    StorageAllocationPools:
+    -   end: 172.22.254.254
+        start: 172.22.0.10
+    StorageMgmtAllocationPools:
+    -   end: 172.23.254.254
+        start: 172.23.0.10
+    StorageMgmtNetCidr: 172.23.0.0/16
+    StorageMgmtNetworkVlanID: 303
+    StorageNetCidr: 172.22.0.0/16
+    StorageNetworkVlanID: 302
+    TenantAllocationPools:
+    -   end: 172.21.254.254
+        start: 172.21.0.10
+    TenantNetCidr: 172.21.0.0/16
+    TenantNetworkVlanID: 304
+resource_registry:
+    OS::TripleO::Compute::Net::SoftwareConfig: four-nics-vlans//compute.yaml
+    OS::TripleO::Computesl::Net::SoftwareConfig: four-nics-vlans//compute.yaml
+    OS::TripleO::Computecl::Net::SoftwareConfig: four-nics-vlans//compute.yaml
+    OS::TripleO::Computecoo::Net::SoftwareConfig: four-nics-vlans//compute.yaml
+    OS::TripleO::Controller::Net::SoftwareConfig: four-nics-vlans//controller.yaml

@@ -1,0 +1,3 @@
+resource_registry:
+  OS::TripleO::NodeExtraConfigPost: /home/stack/vz/server_post_deploy_steps.yml
+

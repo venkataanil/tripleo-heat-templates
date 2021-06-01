@@ -1,0 +1,6 @@
+---
+- hosts: overcloud
+  tasks:
+    - name: test ssh to node
+      shell: |
+        hostname

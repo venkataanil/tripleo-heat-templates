@@ -1,0 +1,207 @@
+heat_template_version: rocky
+
+description: >
+  Example extra config for post-deployment
+
+# Note extra parameters can be defined, then passed data via the
+# environment parameter_defaults, without modifying the parent template
+parameters:
+  servers:
+    type: json
+  DeployIdentifier:
+    type: string
+  EndpointMap:
+    default: {}
+    type: json
+
+resources:
+
+  ControllerExtraConfig1:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      group: script
+      config: |
+        #!/bin/sh
+        if [[ "$(hostname)" == *controller* ]]; then exit; fi
+        echo "post config"
+
+  ControllerExtraDeployments1:
+    type: OS::Heat::SoftwareDeploymentGroup
+    properties:
+      name: ControllerExtraDeployments1
+      servers:  {get_param: servers}
+      config: {get_resource: ControllerExtraConfig1}
+      actions: ['CREATE','UPDATE']
+      input_values:
+        deploy_identifier: {get_param: DeployIdentifier}
+
+  ComputeclExtraConfig2:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      group: script
+      config: |
+        #!/bin/sh
+        if [[ "$(hostname)" == *computecl* ]]; then exit; fi
+        echo "post config"
+
+  ComputeclExtraDeployments2:
+    type: OS::Heat::SoftwareDeploymentGroup
+    properties:
+      name: ComputeclExtraDeployments2
+      servers:  {get_param: servers}
+      config: {get_resource: ComputeclExtraConfig2}
+      actions: ['CREATE','UPDATE']
+      input_values:
+        deploy_identifier: {get_param: DeployIdentifier}
+
+  ComputeslExtraConfig3:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      group: script
+      config: |
+        #!/bin/sh
+        if [[ "$(hostname)" == *computesl* ]]; then exit; fi
+        echo "post config"
+
+  ComputeslExtraDeployments3:
+    type: OS::Heat::SoftwareDeploymentGroup
+    properties:
+      name: ComputeslExtraDeployments3
+      servers:  {get_param: servers}
+      config: {get_resource: ComputeslExtraConfig3}
+      actions: ['CREATE','UPDATE']
+      input_values:
+        deploy_identifier: {get_param: DeployIdentifier}
+
+  ComputecooExtraConfig4:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      group: script
+      config: |
+        #!/bin/sh
+        if [[ "$(hostname)" == *computecoo* ]]; then exit; fi
+        echo "post config"
+
+  ComputecooExtraDeployments4:
+    type: OS::Heat::SoftwareDeploymentGroup
+    properties:
+      name: ComputecooExtraDeployments4
+      servers:  {get_param: servers}
+      config: {get_resource: ComputecooExtraConfig4}
+      actions: ['CREATE','UPDATE']
+      input_values:
+        deploy_identifier: {get_param: DeployIdentifier}
+
+  ControllerExtraConfig5:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      group: script
+      config: |
+        #!/bin/sh
+        if [[ "$(hostname)" == *controller* ]]; then exit; fi
+        echo "post config"
+
+  ControllerExtraDeployments5:
+    type: OS::Heat::SoftwareDeploymentGroup
+    properties:
+      name: ControllerExtraDeployments5
+      servers:  {get_param: servers}
+      config: {get_resource: ControllerExtraConfig5}
+      actions: ['CREATE','UPDATE']
+      input_values:
+        deploy_identifier: {get_param: DeployIdentifier}
+
+  ComputeclExtraConfig6:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      group: script
+      config: |
+        #!/bin/sh
+        if [[ "$(hostname)" == *computecl* ]]; then exit; fi
+        echo "post config"
+
+  ComputeclExtraDeployments6:
+    type: OS::Heat::SoftwareDeploymentGroup
+    properties:
+      name: ComputeclExtraDeployments6
+      servers:  {get_param: servers}
+      config: {get_resource: ComputeclExtraConfig6}
+      actions: ['CREATE','UPDATE']
+      input_values:
+        deploy_identifier: {get_param: DeployIdentifier}
+
+  ComputeslExtraConfig7:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      group: script
+      config: |
+        #!/bin/sh
+        if [[ "$(hostname)" == *computesl* ]]; then exit; fi
+        echo "post config"
+
+  ComputeslExtraDeployments7:
+    type: OS::Heat::SoftwareDeploymentGroup
+    properties:
+      name: ComputeslExtraDeployments7
+      servers:  {get_param: servers}
+      config: {get_resource: ComputeslExtraConfig7}
+      actions: ['CREATE','UPDATE']
+      input_values:
+        deploy_identifier: {get_param: DeployIdentifier}
+
+  ComputecooExtraConfig8:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      group: script
+      config: |
+        #!/bin/sh
+        if [[ "$(hostname)" == *computecoo* ]]; then exit; fi
+        echo "post config"
+
+  ComputecooExtraDeployments8:
+    type: OS::Heat::SoftwareDeploymentGroup
+    properties:
+      name: ComputecooExtraDeployments8
+      servers:  {get_param: servers}
+      config: {get_resource: ComputecooExtraConfig8}
+      actions: ['CREATE','UPDATE']
+      input_values:
+        deploy_identifier: {get_param: DeployIdentifier}
+
+  ComputeExtraConfig9:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      group: script
+      config: |
+        #!/bin/sh
+        if [[ "$(hostname)" == *compute* ]]; then exit; fi
+        echo "post config"
+
+  ComputeExtraDeployments9:
+    type: OS::Heat::SoftwareDeploymentGroup
+    properties:
+      name: ComputeExtraDeployments9
+      servers:  {get_param: servers}
+      config: {get_resource: ComputeExtraConfig9}
+      actions: ['CREATE','UPDATE']
+      input_values:
+        deploy_identifier: {get_param: DeployIdentifier}
+
+  ComputeExtraConfig10:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      group: script
+      config: |
+        #!/bin/sh
+        if [[ "$(hostname)" == *compute* ]]; then exit; fi
+        echo "post config"
+
+  ComputeExtraDeployments10:
+    type: OS::Heat::SoftwareDeploymentGroup
+    properties:
+      name: ComputeExtraDeployments10
+      servers:  {get_param: servers}
+      config: {get_resource: ComputeExtraConfig10}
+      actions: ['CREATE','UPDATE']
+      input_values:
+        deploy_identifier: {get_param: DeployIdentifier}
