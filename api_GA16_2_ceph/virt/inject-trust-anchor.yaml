@@ -1,0 +1,41 @@
+# *******************************************************************
+# This file was created automatically by the sample environment
+# generator. Developers should use `tox -e genconfig` to update it.
+# Users are recommended to make changes to a copy of the file instead
+# of the original, if any customizations are needed.
+# *******************************************************************
+# title: Inject SSL Trust Anchor on Overcloud Nodes
+# description: |
+#   When using an SSL certificate signed by a CA that is not in the default
+#   list of CAs, this environment allows adding a custom CA certificate to
+#   the overcloud nodes.
+parameter_defaults:
+  # The content of a CA's SSL certificate file in PEM format. This is evaluated on the client side.
+  # Mandatory. This parameter must be set by the user.
+  # Type: string
+  SSLRootCertificate: |
+    -----BEGIN CERTIFICATE-----
+    MIIDpTCCAo2gAwIBAgIUKzsQWZhYLcpQR8LmGmmoigeIGgswDQYJKoZIhvcNAQEL
+    BQAwYjELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAk5DMRAwDgYDVQQHDAdSYWxlaWdo
+    MRAwDgYDVQQKDAdSZWQgSEF0MQswCQYDVQQLDAJRRTEVMBMGA1UEAwwMMTkyLjE2
+    OC4yNC4yMB4XDTIxMDcxNDA5MTM1MVoXDTIyMDcxNDA5MTM1MVowYjELMAkGA1UE
+    BhMCVVMxCzAJBgNVBAgMAk5DMRAwDgYDVQQHDAdSYWxlaWdoMRAwDgYDVQQKDAdS
+    ZWQgSEF0MQswCQYDVQQLDAJRRTEVMBMGA1UEAwwMMTkyLjE2OC4yNC4yMIIBIjAN
+    BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwCLaeiTg10U2YIgM76KslPaglIVO
+    ERTdxNOc/DCk8ZYoUaEXyo3aOFSgvghNL0MSEzTiY9odEJiEyF+fFnjTy8P9ovaJ
+    ytl66QJEanJOO+6ZLo3A/nDvqKfC9pvchKkYKUha6hExf7B6f44BKNFlFOJD/VWW
+    p8zXYFB0we9qLK5CaacwUZljz6vvFvLXeYUYFviqMFJuT8FR1ZmtTRuP2hnU+01k
+    Uo37ZsGIOBXF0cfCwc3A9EPWdobTUcifXtXHm9BFNI2GMsISnvYKtjoIa4XbK3Pg
+    1kwg3HdPgSRHVUL1XN/tjM+8tjTJ/1VvEgMH4hRw3rgRljhwZRy5heIAsQIDAQAB
+    o1MwUTAdBgNVHQ4EFgQUWhGa5CljPPR1Ti9FEuxzMxGMHaMwHwYDVR0jBBgwFoAU
+    WhGa5CljPPR1Ti9FEuxzMxGMHaMwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0B
+    AQsFAAOCAQEAjwVaqIZKWhxf0mFPTWXFb/0s0iopTdb1m9QPxx4hJBlglO9X65rX
+    PhrpblSQi0FEojauWoIhDakSzEYDNoOiB0MpQCr7EZaFmdANqzI+tVfu7M+zjBKI
+    eX/nx2ZPJSoV7W9WPwsHf7JrK2hCslH1oZs3wXpb+4pgC3wK52gYr4JIPPqeZCRm
+    Oz3LdvJkKhuGvegyNxJDVfgMlfpQ94oXnOQI9xrP3T57gQLxIS8iJFm/EPAiPkca
+    byY58c7pYNGmpg7VY21lB2bEVT99TynUsevDLqiMz0AjhYF1XIKPqm9OjJZcWB/i
+    1KzTAu1UQAchOJ+5zU/yujxrV7kQa4Bdkw==
+    -----END CERTIFICATE-----
+
+resource_registry:
+  OS::TripleO::NodeTLSCAData: /usr/share/openstack-tripleo-heat-templates/puppet/extraconfig/tls/ca-inject.yaml
